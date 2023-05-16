@@ -125,7 +125,7 @@ export default function Home() {
       <Layout>
         <div className="mx-auto flex flex-col gap-4">
           <h1 className="text-2xl font-bold leading-[1.1] tracking-tighter text-center">
-            Ask questions regarding Australian Budget 2023
+            Ask Questions About The 2023 Australian Budget
           </h1>
           <main className={styles.main}>
             <div className={styles.cloud}>
@@ -137,7 +137,7 @@ export default function Home() {
                     icon = (
                       <Image
                         key={index}
-                        src="/bot-image.png"
+                        src="/supahuman.png"
                         alt="AI"
                         width="40"
                         height="40"
@@ -150,7 +150,7 @@ export default function Home() {
                     icon = (
                       <Image
                         key={index}
-                        src="/usericon.png"
+                        src="/2.png"
                         alt="Me"
                         width="30"
                         height="30"
@@ -260,11 +260,15 @@ export default function Home() {
             )}
           </main>
         </div>
+        <div className="text-center"> Disclaimer: This is an experimental chatbot powered by AI, results may be inaccurate. Please verify the outputs before making any decisions that might impact you.</div>
         <footer className="m-auto p-4">
-          <a href="https://twitter.com/mayowaoshin">
-            Powered by LangChainAI. Demo built by Mayo (Twitter: @mayowaoshin).
+        
+          <a href="http://www.supahuman.xyz">
+            Powered by Supahuman.
           </a>
+         
         </footer>
+        
       </Layout>
     </>
   );
