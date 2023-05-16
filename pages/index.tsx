@@ -25,7 +25,7 @@ export default function Home() {
   }>({
     messages: [
       {
-        message: 'Hi, what would you like to learn about Australian Budget 2023?',
+        message: 'Hi, What would you like to learn about the Australian Budget 2023?',
         type: 'apiMessage',
       },
     ],
@@ -224,7 +224,7 @@ export default function Home() {
                     placeholder={
                       loading
                         ? 'Waiting for response...'
-                        : 'What kind of support is being offered to parents?'
+                        : 'eg: What kind of support is being offered to parents?'
                     }
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
